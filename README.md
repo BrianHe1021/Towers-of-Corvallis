@@ -9,7 +9,7 @@ Write a search program to solve this puzzle using A* and beam search. Note that 
          For beam widths 5, 10, 15, 20, 25, 50, 100, infty
            For at least 4 different sizes (number of disks)
              For each of the 20 problems p, 
-		 	Solve p using h or until NMAX nodes are expanded. 
+		 Solve p using h or until NMAX nodes are expanded. 
                  Record data.
                        
 A list of several problems with numbers of disks 4, 5, 6, 7, 8, 9, 10 are available. Only the starting state is described for each problem and all the disks are assumed to be on peg A. The final state for all problems is the same. It is to get all disks to peg A in the order 9876543210. The top disk is the leftmost. As described in the pseudocode, you should at least try 4 different sizes (number of disks) of problems.
